@@ -2,7 +2,7 @@
 Dies ist ein Java-Maven-Projekt, das Akzeptanztests (u.a. Selenium) beinhaltet. Bei diesem Projekt liegt der Fokus auf die Ausführung von TESTS (mit 'mvn test') und nicht das Bauen einer weiteren JAR o.ä. Das Ziel ist es, dieses Maven-Projekt in die Jenkins-Build-Pipeline zu integrieren und für das Testen zu nutzen.
 
 ## Beschreibung der aktuellen Tests
-Derzeit gibt es insgesamt 4 Tests:
+Derzeit gibt es insgesamt 4 Tests:<br>
 1. Login-Test: Es wird versucht sich mit dem normalen Standard-User (Name: user, Password: user) anzumelden. Anschließend wird getestet, ob der Anmeldeversuch erfolgreich war
 2. Movies-Anlage-Test: Es wird ein Film angelegt (Police Academy)
 3. Actors-Aufruf-Test: Es wird die Actors-Seite aufgerufen
