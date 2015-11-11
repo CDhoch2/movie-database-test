@@ -12,3 +12,5 @@ Derzeit gibt es insgesamt 4 Tests:<br>
 `mvn test -Dmovie-database-url={...hier die URL der Movie-Database eintragen...}`
 
 Beispiel: `mvn test -Dmovie-database-url=http://localhost`
+
+WICHTIG: Kein Backslash am Ende der Adresse angeben!
