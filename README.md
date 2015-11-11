@@ -3,10 +3,10 @@ Dies ist ein Java-Maven-Projekt, das Akzeptanztests (u.a. Selenium) beinhaltet. 
 
 ## Beschreibung der aktuellen Tests
 Derzeit gibt es insgesamt 4 Tests:<br>
-1. Login-Test: Es wird versucht sich mit dem normalen Standard-User (Name: user, Password: user) anzumelden. Anschließend wird getestet, ob der Anmeldeversuch erfolgreich war
-2. Movies-Anlage-Test: Es wird ein Film angelegt (Police Academy)
-3. Actors-Aufruf-Test: Es wird die Actors-Seite aufgerufen
-4. Actors-Anlage-Test: Es wird ein Schauspieler angelegt (Steve Guttenberg)
+1. Login-Test: Es wird versucht sich mit dem normalen Standard-User (Name: user, Password: user) anzumelden. Anschließend wird getestet, ob der Anmeldeversuch erfolgreich war<br>
+2. Movies-Anlage-Test: Es wird ein Film angelegt (Police Academy)<br>
+3. Actors-Aufruf-Test: Es wird die Actors-Seite aufgerufen<br>
+4. Actors-Anlage-Test: Es wird ein Schauspieler angelegt (Steve Guttenberg)<br>
 
 ## Ausführung der Tests
 `mvn test -Dmovie-database-url={...hier die URL der Movie-Database eintragen...}`
